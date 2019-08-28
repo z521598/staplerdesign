@@ -20,12 +20,10 @@ public class Demo {
 
     public String name = "demo";
 
-
-
-    // /hello
-    public void doHello(StaplerRequest request, StaplerResponse response ) throws ServletException, IOException {
-        System.out.println("lllll");
-        response.forward(this,"index",request);
-
+    /**
+     * GET /hello
+     */
+    public void doHello(StaplerRequest request, StaplerResponse response) throws ServletException, IOException {
+        // TODO
     }
 }
