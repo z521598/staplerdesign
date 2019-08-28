@@ -32,6 +32,11 @@
             <version>1.258</version>
         </dependency>
         <dependency>
+            <groupId>org.kohsuke.stapler</groupId>
+            <artifactId>stapler-jsp</artifactId>
+            <version>1.220</version>
+        </dependency>
+        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
@@ -47,20 +52,19 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <build>
         <finalName>stapler-design</finalName>
-        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+        <pluginManagement>
             <plugins>
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
                     <version>3.1.0</version>
                 </plugin>
-                <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>3.0.2</version>

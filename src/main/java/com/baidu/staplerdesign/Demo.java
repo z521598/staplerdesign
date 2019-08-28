@@ -12,7 +12,10 @@ public class Demo {
     public static Demo demoInstance = new Demo();
 
     public Map<String, String> getItems() {
-        return new HashMap<>();
+        Map<String, String> items = new HashMap<>();
+        items.put("1", "2");
+        items.put("2", "3");
+        return items;
     }
 
     public String name = "demo";
