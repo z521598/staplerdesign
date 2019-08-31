@@ -7,7 +7,10 @@
     <groupId>com.baidu</groupId>
     <artifactId>stapler-design</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <modules>
+        <module>jelly-design</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>stapler-design Maven Webapp</name>
     <url>localhost:8080</url>
